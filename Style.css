@@ -1,0 +1,44 @@
+body {
+  background-color: lightgreen;
+}
+
+.btn {
+border-radius: 15px, 15px, 15px, 15px;
+
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+h1 {
+  width: 1420px;
+  margin-top: 10px;
+  font-size: 2em;
+  font-family: fantasy;
+  text-align: center;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  box-shadow: 4px 4px 5px #888888;
+  background-color: limegreen;
+
+}
+
+img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  vertical-align: bottom;
+  margin: 10px;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
